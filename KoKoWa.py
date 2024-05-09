@@ -21,8 +21,8 @@ from sklearn.metrics import accuracy_score
 
 from kobert_tokenizer import KoBERTTokenizer
 from transformers import BertModel
-from emotiontext2 import BERTClassifier
-from emotiontext2 import predict
+from utils.emotiontext import BERTClassifier
+from utils.emotiontext import predict
 from utils.adding_token import special_token
 
 import warnings

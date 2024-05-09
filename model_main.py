@@ -12,7 +12,7 @@ warnings.filterwarnings('ignore')
 import torch
 #from llama.llama_few_show import get_prompt
 from utils.translater import Google_Translator
-#from effectgen import make_effect_files
+#from utils.effectgen import make_effect_files
 from utils.bgmgen import generate_bgm
 import pandas as pd
 import os
