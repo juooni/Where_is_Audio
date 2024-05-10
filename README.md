@@ -8,9 +8,6 @@
 - **기능**
     - **효과음 삽입 기능**: 효과음 삽입 위치를 찾아 효과음을 생성 및 삽입 
     - **배경음악 삽입 기능**: 오디오북의 전체적인 분위기를 탐지하여, 어울리는 배경음악을 생성 및 삽입 
-- **input/output**
-    - **input** : Audio File of Audio book
-    - **output** : Edited Audio File (adding Effect sound & Background music)
 
 
 
@@ -20,9 +17,9 @@
 
 
 ### ✨ Effect Sound 
-- **Effect sound insertion binary classification** | 효과음 삽입 여부 이진분류
+- **Effect Sound Insertion Binary Classification** | 효과음 삽입 여부 이진분류
     > **🔎 오디오북에 효과음이 들어갈만한 위치를 찾는 작업**
-    > - **Self Made Dataset** 
+    > - **자체 제작 데이터셋** 
     >   - 특정 문장에 대해 효과음이 날 만한 문장인지 여부를 표시한 데이터셋 제작 및 활용
     > - **KoBERT 효과음 삽입 여부 이진 분류 모델**
     >   - 문장 성분 분석 $\rightarrow$ POS 태깅을 사용하여 주어, 목적어, 서술어, 부사어에 special token 추가
@@ -31,12 +28,12 @@
     >   -  KoBERT와 Wav2Vec을 활용한 감정분석 결과를 효과음 이진분류의 가중치로 활용
     >   - 텍스트의 맥락 반영 효과  
 
-- **Effect sound generation** | 효과음 생성
+- **Effect Sound Generation** | 효과음 생성
     > **🔎 효과음이 들어갈 만한 문장에 적절한 효과음을 생성하는 작업**
     > - **Translation Kor to Eng by Papago**
-    > - **prompt generation by few-shot learned LLaMa2**
+    > - **Prompt Generation by few-shot learned LLaMa2**
     >   - few-shot learning prompt structure : $\text{"{text}}$=>$\text{{prompt};}"$
-    > - **effect sound generation by AudioGEN**
+    > - **Effect Sound Generation by AudioGEN**
 
 ### ✨ Background Music
 - **Sentiment Analysis based on Text and Audio** 
