@@ -47,10 +47,18 @@
 ### ✨ Backend  
 
 ### ✨ Frontend 
-<div align='left'> <img src="https://github.com/juooni/Where_is_Audio/assets/125336278/c555715b-69d5-4b8c-9f68-257030f96b92" width=300> </div>
+<div align='left'> <img src="https://github.com/juooni/Where_is_Audio/assets/125336278/c555715b-69d5-4b8c-9f68-257030f96b92" width=400> </div>
 
 
-<br><br>
+<br>
+
+
+## 🖤 Team Members
+- **MODEL**: 박종현, 임주원
+- **BACKEND** : 김필환
+- **FRONTEND** : 김태란, 윤영채
+- **PRODUCT MANAGEMENT** : 김태란, 김필환, 박종현, 윤영채, 임주원, 백은서
+
 
 ## 💻 stack
 - **model** <br>
@@ -63,12 +71,6 @@
     ![React](https://img.shields.io/badge/semantic%20ui%20react-35BDB2?style=for-the-badge&logo=semanticuireact&logoColor=white)
     ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-
-## 🖤 Team Members
-- **MODEL**: 박종현, 임주원
-- **BACKEND** : 김필환
-- **FRONTEND** : 김태란, 윤영채
-- **PRODUCT MANAGEMENT** : 김태란, 김필환, 박종현, 윤영채, 임주원, 백은서
 
 
 ## 🗺️ Code Description
