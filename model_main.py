@@ -17,6 +17,7 @@ from utils.bgmgen import generate_bgm
 import pandas as pd
 import os
 import sys
+from utils.audio_processor import AudioProcessor
 
 class AudioProcessor:
     def __init__(self, id, wav_path, output_dir):
