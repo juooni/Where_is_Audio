@@ -73,7 +73,7 @@
 
 
 
-## 🗺️ Code Description
+## 🗺️ Directory Description
 - [train_mode](Where_is_Audio/train_model)
     - Model Train Codes
 - [utils](Where_is_Audio/utils)
