@@ -20,9 +20,9 @@
 - **Effect Sound Insertion Binary Classification** | 효과음 삽입 여부 이진분류
     > **🔎 오디오북에 효과음이 들어갈만한 위치를 찾는 작업**
     > - **자체 제작 데이터셋** 
-    >   - 특정 문장에 대해 효과음이 날 만한 문장인지 여부를 표시한 데이터셋 제작 및 활용
+    >   - 문장에 대해 효과음이 날 만한 문장인지 여부를 표시한 데이터셋 제작 및 활용
     > - **KoBERT 효과음 삽입 여부 이진 분류 모델**
-    >   - 문장 성분 분석 $\rightarrow$ POS 태깅을 사용하여 주어, 목적어, 서술어, 부사어에 special token 추가
+    >   - POS 태깅을 사용하여 주어, 목적어, 서술어, 부사어에 special token 추가
     >   - token 추가로 0.5에서 0.9까지 성능 향상
     > - **Sentiment Analysis based on Text and Audio** 
     >   -  KoBERT와 Wav2Vec을 활용한 감정분석 결과를 효과음 이진분류의 가중치로 활용
@@ -33,7 +33,8 @@
     > - **Translation Kor to Eng by Papago**
     > - **Prompt Generation by few-shot learned LLaMa2**
     >   - few-shot learning prompt structure : $\text{"{text}}$=>$\text{{prompt};}"$
-    > - **Effect Sound Generation by AudioGEN**
+    > - **Effect Sound Generation by AudioGEN** 
+    > <br>$\:$
 
 ### ✨ Background Music
 - **Sentiment Analysis based on Text and Audio** 
@@ -46,22 +47,10 @@
 ### ✨ Backend  
 
 ### ✨ Frontend 
-<div align='center'> <img src="https://github.com/juooni/Where_is_Audio/assets/125336278/c555715b-69d5-4b8c-9f68-257030f96b92" width=512> </div>
+<div align='left'> <img src="https://github.com/juooni/Where_is_Audio/assets/125336278/c555715b-69d5-4b8c-9f68-257030f96b92" width=300> </div>
 
 
-## 🗺️ Code Description
-- [train_mode](Where_is_Audio/train_model)
-    - Model Train Codes
-- [utils](Where_is_Audio/utils)
-    - Audio, Text Preprocessing 
-    - AudioGEN, MusicGEN Executable 
-    - Whisper STT 
-    - Translater
-    - Model Classes
-- [llama_code](Where_is_Audio/llama_code)
-    - LLaMa few-shot learning and Inference code
-- Backend : [models](Where_is_Audio/models), [routers](Where_is_Audio/routers), [server](Where_is_Audio/server), [services](Where_is_Audio/services)
-
+<br><br>
 
 ## 💻 stack
 - **model** <br>
@@ -80,3 +69,22 @@
 - **BACKEND** : 김필환
 - **FRONTEND** : 김태란, 윤영채
 - **PRODUCT MANAGEMENT** : 김태란, 김필환, 박종현, 윤영채, 임주원, 백은서
+
+
+## 🗺️ Code Description
+- [train_mode](Where_is_Audio/train_model)
+    - Model Train Codes
+- [utils](Where_is_Audio/utils)
+    - Audio, Text Preprocessing 
+    - AudioGEN, MusicGEN Executable 
+    - Whisper STT 
+    - Translater
+    - Model Classes
+- [llama_code](Where_is_Audio/llama_code)
+    - LLaMa few-shot learning and Inference code
+- Backend : [models](Where_is_Audio/models), [routers](Where_is_Audio/routers), [server](Where_is_Audio/server), [services](Where_is_Audio/services)
+
+
+
+
+
